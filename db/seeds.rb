@@ -4,6 +4,10 @@
 #
 # Example:
 #
+
+Contact.create(name: "Justin Bieber", phone: "122-3445", email: "jb@example.com")
+Contact.create(name: "Joe Doe", phone: "122-3445", email: "joedoe@example.com")
+Contact.create(name: "Jane Smith", phone: "122-8905", email: "janesmith@example.com")
 #   ["Action", "Comedy", "Drama", "Horror"].each do |genre_name|
 #     MovieGenre.find_or_create_by!(name: genre_name)
 #   end
